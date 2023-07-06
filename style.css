@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #F8E71C;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .search-section {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #results-section {
+    padding: 20px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #results-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
